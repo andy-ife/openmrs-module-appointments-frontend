@@ -1,66 +1,75 @@
 @import "../../../../src/styles/bahmni-helper/_variables.scss";
-.tableGridWrapper{
+
+.tableGridWrapper {
     overflow-x: auto;
     margin: 10px 20px 10px 10px;
 
-    .tableGridSummary{
+    .tableGridSummary {
         border-collapse: collapse;
         border-spacing: 0;
         width: 100%;
-        margin-bottom:8px;
+        margin-bottom: 8px;
         border: none;
         text-align: center;
-        tr{
+
+        tr {
             border-bottom: none;
         }
 
-        thead>tr>td{
+        thead>tr>td {
             font-weight: 900;
             font-family: $primarySemiBoldFont;
             font-size: 15px;
             border: none;
         }
 
-        tbody > tr > td {
-                min-width:110px;
-                padding: 10px;
-                border: 1px solid #ddd;
-                color: #363463;
-                &:first-child{
-                    border:none;
-                    text-align: right;
-                    background-color: white;
-                    width: 16%;
-                    font-family: ;
-                    font-size: 15px;
-                }
-                a{
-                    text-decoration: none;
-                    color: #2b95ff;
-                    cursor: pointer;
-                }
+        tbody>tr>td {
+            min-width: 110px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            color: #363463;
+
+            &:first-child {
+                border: none;
+                text-align: right;
+                background-color: white;
+                width: 16%;
+                font-family: $primarySemiBoldFont;
+                font-size: 15px;
+            }
+
+            a {
+                text-decoration: none;
+                color: #2b95ff;
+                cursor: pointer;
+            }
         }
 
-        .tableTotalCount{
+        .tableTotalCount {
             background-color: #f0faff;
             color: black;
         }
     }
-    .missedCount{
-        color:red;
+
+    .missedCount {
+        color: red;
     }
-    .currentDateColumn{
+
+    .currentDateColumn {
         background-color: #f5f5f5;
     }
-    .noAppointments{
+
+    .noAppointments {
         background-color: #f0faff;
         font-size: 15px;
     }
-    .gridHeading{
+
+    .gridHeading {
         margin-left: 10px;
     }
 }
-hr{
+
+hr {
     border: 0;
     border-bottom: 1px solid #ddd;
 }
