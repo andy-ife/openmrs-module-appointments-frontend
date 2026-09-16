@@ -765,9 +765,9 @@ button.toggle {
 }
 
 button.btn--add {
-  background: linear-gradient(to bottom, #22DDD0, #1BB1A6);
-  background-color: #1BB1A6;
-  border: #1BB1A6 1px solid;
+  background: linear-gradient(to bottom, $success, $successLow);
+  background-color: $successLow;
+  border: $successLow 1px solid;
   color: $white;
   font-size: 13px !important;
   padding: 7px !important;
