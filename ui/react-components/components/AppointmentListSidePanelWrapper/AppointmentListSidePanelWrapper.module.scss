@@ -1,8 +1,9 @@
+@import "../../../../src/styles/bahmni-helper/_variables.scss";
 .showSelectedContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: Nunito, Arial, sans-serif, Arial, sans-serif;
+  font-family: $primaryFont;
   font-size: 14px;
   margin: 20px 0;
 

@@ -1,3 +1,4 @@
+@import "../../../../src/styles/bahmni-helper/_variables.scss";
 .tab-view {
   .active {
     color: #27ae60;
@@ -19,7 +20,7 @@
       border-bottom: none;
       font-size: 12px;
       outline: 0;
-      font-family: NunitoBold, sans-serif;
+      font-family: $primaryBoldFont;
       text-decoration: none;
       font-weight: 600;
     }

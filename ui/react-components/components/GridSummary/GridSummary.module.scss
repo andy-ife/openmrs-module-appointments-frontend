@@ -1,3 +1,4 @@
+@import "../../../../src/styles/bahmni-helper/_variables.scss";
 .tableGridWrapper{
     overflow-x: auto;
     margin: 10px 20px 10px 10px;
@@ -15,7 +16,7 @@
 
         thead>tr>td{
             font-weight: 900;
-            font-family: NunitoSemibold, serif;
+            font-family: $primarySemiBoldFont;
             font-size: 15px;
             border: none;
         }
@@ -30,7 +31,7 @@
                     text-align: right;
                     background-color: white;
                     width: 16%;
-                    font-family:Nunito Semibold, serif;
+                    font-family: ;
                     font-size: 15px;
                 }
                 a{

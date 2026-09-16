@@ -53,7 +53,7 @@ input[file-upload] {
   color: red!important;
 }
 .is-abnormal-bold{
-  font-family:$NunitoBoldFont !important;
+  font-family: $primaryBoldFont!important;
   color: red!important;
 }
 
@@ -211,7 +211,7 @@ pre.chief-notes {
 u, .add-drug-btninput[value]:first-letter {
     text-decoration: none;
     border-bottom: 1px solid;
-    font-family: $NunitoBoldFont;
+    font-family: $primaryBoldFont;
 }
 
 .drug-dispensed {
